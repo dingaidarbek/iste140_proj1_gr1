@@ -1,5 +1,38 @@
-h1{color:saddlebrown;
-    background-color:rgb(241, 212, 174);
-    padding: 3%;
-    margin-top: 0%;}
-body{background-color: antiquewhite;}
+body{background-color:rgb(169, 223, 223);}
+.sticky {
+    position: sticky;
+    /*coloring the text and the background*/
+    color:darkblue;
+    background-color:rgb(138, 209, 211);
+    text-align: center; /*aligning the text to the center*/
+    top: 0px; /* Sticking the title to the top of the viewport */
+
+    /*customizing our sticky header*/
+    padding: 5%;
+    margin-top: 0%;
+    font-weight:bolder;
+    font-size: 3rem;
+    z-index: 1000; /*z-index will help keeping the header above the body*/
+}
+/*The following 'aside' class will style the contents
+that we will be setting on the side of the webpage*/
+aside {
+    color:darkblue;
+    background-color:rgb(138, 209, 211);
+    padding: 10px;
+    margin: 10px;
+    float: left; /*The float will set the aside to the left side of the screen*/
+    width: 20%;
+    height: 600px; /* Set height to 600px */
+}
+main {
+    margin: 10px;
+    padding: 10px;
+    background-color: #eaeaea;
+    width: 70%;
+    float: right; /*The float will set the aside to the right side of the screen*/
+    height: 600px; /* Set height to 600px */
+}
+footer {
+    clear: both;
+}
