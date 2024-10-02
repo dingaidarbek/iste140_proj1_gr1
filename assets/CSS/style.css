@@ -1,4 +1,5 @@
 body{background-color:rgb(169, 223, 223);}
+
 .sticky {
     position: sticky;
     /*coloring the text and the background*/
@@ -12,19 +13,79 @@ body{background-color:rgb(169, 223, 223);}
     margin-top: 0%;
     font-weight:bolder;
     font-size: 3rem;
+    border-radius: 8px; /*this will make the edges of the header round*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*adding a shadow*/
     z-index: 1000; /*z-index will help keeping the header above the body*/
 }
+
+/*The following classes are used to style the navigation bar*/
+.container {
+    position: sticky;
+    display: flex;
+    /* removing any paddings and margins */
+    margin: 0%;
+    padding: 0;
+    top: 0;
+    width: 100%; /* ensuring it takes the full width */
+    z-index: 999; /* ensuring it stays above other content */
+}
+
+.box {
+    flex: 1; /*allows the boxes to fill any empty space*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color:darkcyan;
+    border: solid darkblue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box:hover {
+    background-color:cadetblue;
+}
+
 /*The following 'aside' class will style the contents
 that we will be setting on the side of the webpage*/
 aside {
     color:darkblue;
+    border: 3px solid darkblue;
     background-color:rgb(138, 209, 211);
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 0px;
+    margin-top: 1%;
     float: left; /*The float will set the aside to the left side of the screen*/
     width: 20%;
     height: 600px; /* Set height to 600px */
 }
+
+/*The following 'aside ul' class will style the lists
+that we will be setting on the side of the webpage*/
+aside ul {
+    list-style-type: disc; /* Add bullet points */
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+}
+
+/*The following 'aside ul li' class will style the lists
+that we will be setting on the side of the webpage*/
+aside ul li{
+    margin-left: 20px;
+    padding-left: 20px; /*indenting the lists*/
+}
+
+/*The following 'aside h2' class will style the header
+that we will be setting on the side of the webpage*/
+aside h2{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/*The following 'main' class will style the main contents*/
 main {
     margin: 10px;
     padding: 10px;
@@ -33,6 +94,8 @@ main {
     float: right; /*The float will set the aside to the right side of the screen*/
     height: 600px; /* Set height to 600px */
 }
+
+/*The following 'aside' class will style the footer*/
 footer {
     clear: both;
 }
