@@ -86,13 +86,17 @@ aside h2{
 }
 
 /*The following 'main' class will style the main contents*/
-main {
+.main {
     margin: 10px;
     padding: 10px;
     background-color: #eaeaea;
     width: 70%;
     float: right; /*The float will set the aside to the right side of the screen*/
     height: 600px; /* Set height to 600px */
+}
+
+.main .sight-seeing{
+    height:2000px;
 }
 
 /*The following 'aside' class will style the footer*/
