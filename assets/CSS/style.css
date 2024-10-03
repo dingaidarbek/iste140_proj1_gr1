@@ -9,13 +9,15 @@ body{background-color:rgb(169, 223, 223);}
     top: 0px; /* Sticking the title to the top of the viewport */
 
     /*customizing our sticky header*/
-    padding: 5%;
     margin-top: 0%;
     font-weight:bolder;
     font-size: 3rem;
     border-radius: 8px; /*this will make the edges of the header round*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*adding a shadow*/
     z-index: 1000; /*z-index will help keeping the header above the body*/
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
 }
 
 /*The following classes are used to style the navigation bar*/
