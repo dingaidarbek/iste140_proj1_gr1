@@ -172,21 +172,34 @@ footer {
 }
 
 .place{
+    align-items: center;
     border: 5px solid cadetblue;
     border-radius: 5px;
     padding: 5px;
     margin: 10px;
-    display: block;
+    display: flex;
     box-sizing: border-box;
     height: auto;
+    color: darkblue;
+}
+
+body{
+    color: darkblue;
 }
 
 .place_description{
-    float:left;
     width: 70%;
+}
+ /*ensures floating items are contained properly*/
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .place .img{
-    float: left;
     width:30%;
+    margin-left: 10px;
+    max-width: 100%;
+    height: auto;
 }
