@@ -5,22 +5,51 @@ body{
 
 .sticky {
     position: sticky;
+    top: 0;
     /*coloring the text and the background*/
-    color:darkblue;
-    background-color:rgb(138, 209, 211);
-    text-align: center; /*aligning the text to the center*/
-    top: 0px; /* Sticking the title to the top of the viewport */
-
-    /*customizing our sticky header*/
-    margin-top: 0%;
-    font-weight:bolder;
-    font-size: 3rem;
-    border-radius: 8px; /*this will make the edges of the header round*/
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*adding a shadow*/
-    z-index: 1000; /*z-index will help keeping the header above the body*/
-    overflow: hidden;
-    width: 100%;
+    background-color: rgb(138, 209, 211);
+    color: darkblue;
     height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    /*box-shadow will make the edges of the header round*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /*z-index will help keeping the header above the body*/
+    z-index: 1000;
+    border-radius: 8px;
+}
+
+/*the below class will style the header in our main page*/
+.header-content {
+    display: flex;
+    /*centering the content horizontally and vertically*/
+    justify-content: center;
+    align-items: center;
+    width: 100%; /*ensuring we take the full width of the viewport*/
+    max-width: 1200px;
+    padding: 10px;
+}
+
+/*the below class will style the header text in our main page*/
+.header-content h1 {
+    font-size: 2.5rem;
+    color: darkblue;
+    margin: 0;
+    letter-spacing: 2px; /*adding a space between each letter for readability*/
+    font-weight: 700;
+}
+
+/*the below class will style the logo in our main page*/
+.header-content .logo {
+    height: 70px;
+    margin-left: auto;
+    padding-left: 20px;
+}
+
+.header-content .logo:hover {
+    opacity: 1; /* Slight hover effect for interactivity */
 }
 
 /*The following classes are used to style the navigation bar*/
