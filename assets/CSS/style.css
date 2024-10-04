@@ -1,6 +1,6 @@
 body{
     background-color:rgb(169, 223, 223);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Times New Roman', Times, serif
 }
 
 .sticky {
@@ -36,36 +36,45 @@ body{
 }
 
 .box {
-    flex: 1; /*allows the boxes to fill any empty space*/
+    flex: 1; /* allows the boxes to fill any empty space */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
-    background-color:darkcyan;
+    background-color: darkcyan;
     border: solid darkblue;
     color: white;
     text-align: center;
     text-decoration: none;
     font-size: 18px;
-    font-weight: bold;
+}
+
+/* this wil ensure that the link stays white even when clicked/visited */
+.box:visited {
+    color: white;
 }
 
 .box:hover {
-    background-color:cadetblue;
+    background-color: cadetblue;
 }
+
+/* ensuring consistency across all states: active and focused */
+.box:focus, .box:active {
+    color: white;
+}
+
 
 /*The following 'aside' class will style the contents
 that we will be setting on the side of the webpage*/
 aside {
     color:darkblue;
     border: 3px solid darkblue;
-    background-color:rgb(138, 209, 211);
-    padding: 15px;
     margin: 0px;
     margin-top: 1%;
     float: left; /*The float will set the aside to the left side of the screen*/
-    width: 20%;
-    height: 600px; /* Set height to 600px */
+    width: 15%;
+    height: 300px; /* Set height to 600px */
+    padding: 20px; background-color: #8AD1D3; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 aside a, a:visited{
@@ -102,12 +111,11 @@ aside h2{
 /*The following 'main' class will style the main contents*/
 .main {
     margin: 10px;
-    padding: 10px;
-    background-color: rgb(138, 209, 211);
-    width: 70%;
+    width: 77%;
     float: right; /*The float will set the aside to the right side of the screen*/
-    height: 1200px; /* Set height to 1200px */
+    height: 1000px; /* Set height to 1200px */
     border: 3px solid darkblue;
+    padding: 10px; background-color: #8AD1D3; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .main .sight-seeing{
@@ -139,7 +147,7 @@ in 'ABOUT US' navigator*/
     /*customizing the inner box:*/
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-family: 'Arial', sans-serif; /* adjusting the font */
+    font-family:'Times New Roman', Times, serif; /* adjusting the font */
     color: #333;
     line-height: 1.6;
 }
@@ -164,11 +172,6 @@ in 'ABOUT US' navigator*/
 
 .inner-box a:hover {
     text-decoration: underline;
-}
-
-/*The following 'aside' class will style the footer*/
-footer {
-    clear: both;
 }
 
 .place{
@@ -202,4 +205,13 @@ body{
     margin-left: 10px;
     max-width: 100%;
     height: auto;
+}
+
+#footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: darkcyan;
+    color: white;
+    font-size: 1rem;
+    margin-top: 50px;
 }
