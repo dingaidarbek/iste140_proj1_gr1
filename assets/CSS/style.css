@@ -1,4 +1,7 @@
-body{background-color:rgb(169, 223, 223);}
+body{
+    background-color:rgb(169, 223, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .sticky {
     position: sticky;
@@ -63,6 +66,15 @@ aside {
     float: left; /*The float will set the aside to the left side of the screen*/
     width: 20%;
     height: 600px; /* Set height to 600px */
+}
+
+aside a, a:visited{
+    text-decoration: none;
+    color:darkblue;
+}
+
+aside a:hover,a:active{
+    color:rgb(41, 41, 255);
 }
 
 /*The following 'aside ul' class will style the lists
@@ -158,7 +170,6 @@ in 'ABOUT US' navigator*/
 footer {
     clear: both;
 }
-
 
 .place{
     border: 5px solid cadetblue;
