@@ -2,6 +2,7 @@ body{
     background-color:rgb(169, 223, 223);
     font-family: 'Times New Roman', Times, serif;
     color: darkblue;
+    font-size: 20px;
 }
 
 .sticky {
@@ -217,11 +218,6 @@ in 'ABOUT US' navigator*/
     box-sizing: border-box;
     height: auto;
     color: darkblue;
-}
-
-body{
-    color: darkblue;
-    font-size: 20px;
 }
 
 
