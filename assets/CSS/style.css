@@ -35,7 +35,7 @@ body{
 
 /*the below class will style the header text in our main page*/
 .header-content h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: darkblue;
     margin: 0;
     letter-spacing: 2px; /*adding a space between each letter for readability*/
@@ -44,9 +44,9 @@ body{
 
 /*the below class will style the logo in our main page*/
 .header-content .logo {
-    height: 70px;
+    height: 100px;
     margin-left: auto;
-    padding-left: 20px;
+    border-radius: 45%;
 }
 
 .header-content .logo:hover {
@@ -219,6 +219,12 @@ in 'ABOUT US' navigator*/
     color: darkblue;
 }
 
+body{
+    color: darkblue;
+    font-size: 20px;
+}
+
+
 .place_description{
     width: 70%;
 }
@@ -234,6 +240,7 @@ in 'ABOUT US' navigator*/
     margin-left: 10px;
     max-width: 100%;
     height: auto;
+    border-radius: 5%;
 }
 
 /*The following codes are to customize the inner and outer boxs in references page*/
@@ -314,6 +321,59 @@ in 'ABOUT US' navigator*/
 .header {
     background-color:bisque;
 }
+
+/*outer box for contact us page*/
+.outer-box-contact {
+    background-color:rgb(62, 186, 186) ;
+    background-image: url(../images/ritcampus2.jpg); 
+    background-size: cover;
+    background-position: center; 
+    padding: 150px;
+    height: 650px ;
+}
+
+/*inner box for contact us page*/
+.inner-box-contact {
+    background-color: rgba(255, 255, 255, 0.812);
+    padding: 20px;
+    margin: 10px;
+    height: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family:'Times New Roman', Times, serif; 
+    color: black;
+    line-height: 1.6;
+}
+
+/*paragraph for innerbox in contact us page*/
+.inner-box-contact p {
+    font-size: 25px; 
+    font-weight: 400; 
+    margin: 0 0 15px; 
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    color:black;
+    float: left;
+}
+
+.inner-box-contact h1{
+    font-size: 25px;
+    color:black;
+    text-align: center;
+}
+
+/*for linkedin links*/
+.inner-box-contact a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 600; 
+}
+
+.inner-box-contact a:hover {
+    text-decoration: underline;
+}
+
 
 #footer {
     text-align: center;
