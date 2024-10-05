@@ -203,6 +203,7 @@ in 'ABOUT US' navigator*/
     text-decoration: underline;
 }
 
+
 .place{
     align-items: center;
     border: 5px solid cadetblue;
@@ -234,6 +235,85 @@ body{
     margin-left: 10px;
     max-width: 100%;
     height: auto;
+}
+
+/*The following codes are to customize the inner and outer boxs in references page*/
+/* Styling the outer-box and inner-box*/
+.outer-box2 {
+    background-color:lightblue;
+    padding: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+.inner-box2 {
+    background-color: rgba(211, 211, 211, 0.938);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* To apply rounded corners */
+}
+
+/* Table headers */
+.custom-table th {
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid cadetblue;
+}
+
+/* Table cells */
+.custom-table td {
+    padding: 15px;
+    text-align: center;
+    color: darkblue;
+    border-bottom: 1px solid lightgray;
+}
+
+/* Table rows hover effect */
+.custom-table tbody tr:hover {
+    background-color: rgba(0, 191, 255, 0.1);
+}
+
+/* Link styling */
+.custom-table a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.custom-table a:hover {
+    text-decoration: underline;
+}
+
+/*The following codes are to customize the table in the references page*/
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse; /* removing spacing between cells */
+}
+.table-row {
+    display: table-row;
+    background-color: cadetblue;
+}
+.table-cell {
+    display: table-cell; 
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center; /* centering the text */
+}
+.header {
+    background-color:bisque;
 }
 
 #footer {
