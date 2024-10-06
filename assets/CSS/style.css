@@ -2,7 +2,6 @@ body{
     background-color:rgb(169, 223, 223);
     font-family: 'Times New Roman', Times, serif;
     color: darkblue;
-    font-size: 20px;
 }
 
 .sticky {
@@ -144,7 +143,7 @@ aside h2{
     margin: 10px;
     width: 77%;
     float: right; /*The float will set the aside to the right side of the screen*/
-    height: 1300px; /* Set height to 1300px */
+    height: 1250px; /* Set height to 1250px */
     border: 3px solid darkblue;
     padding: 10px; 
     background-color: #8AD1D3; 
@@ -218,6 +217,11 @@ in 'ABOUT US' navigator*/
     box-sizing: border-box;
     height: auto;
     color: darkblue;
+}
+
+body{
+    color: darkblue;
+    font-size: 20px;
 }
 
 
@@ -319,63 +323,56 @@ in 'ABOUT US' navigator*/
 }
 
 /*outer box for contact us page*/
-.outer-box-contact {
+.outer-box-contact{
     background-color:rgb(62, 186, 186) ;
-    background-image: url(../images/ritcampus2.jpg); 
+    background-image: url('../images/ritcampus.jpg'); 
+    /*adding the RIT image as a background in the outer box*/
     background-size: cover;
     background-position: center; 
-    padding: 150px;
+    padding: 150px; /* Padding inside outer box */
     height: 650px ;
 }
 
-/*inner box for contact us page*/
+/*inner box*/
 .inner-box-contact {
-    background-color: rgba(255, 255, 255, 0.812);
-    padding: 20px;
-    margin: 10px;
-    height: 350px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-family:'Times New Roman', Times, serif; 
-    color: black;
-    line-height: 1.6;
-}
-
-/*paragraph for innerbox in contact us page*/
-.inner-box-contact p {
-    font-size: 25px; 
-    font-weight: 400; 
-    margin: 0 0 15px; 
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 50px;
-    color:black;
-    float: left;
-}
-
-.inner-box-contact h1{
-    font-size: 25px;
-    color:black;
+    background-color:rgba(211, 211, 211, 0.904);
+    padding: 50px;
+    margin: auto;
+    margin-top: 7%;
+    max-width: 50%;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    font-family: 'Arial', sans-serif;
     text-align: center;
 }
 
-/*for linkedin links*/
+/* Styling for LinkedIn and Email */
+.inner-box-contact h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#055ebe;
+}
+
+.inner-box-contact p {
+    font-size: 18px;
+    line-height: 2.3;
+}
+
 .inner-box-contact a {
-    color: darkblue;
-    text-decoration: none;
-    font-weight: 600; 
+    color: #007bff;
+    font-weight: bold;
 }
 
 .inner-box-contact a:hover {
+    color: #0056b3;
     text-decoration: underline;
 }
-
 
 #footer {
     text-align: center;
     padding: 15px 0;
-    background-color: darkcyan;
-    color: white;
+    background-color: rgba(211, 211, 211, 0.938);
+    color: darkblue;
     font-size: 1rem;
     margin-top: 50px;
 }
