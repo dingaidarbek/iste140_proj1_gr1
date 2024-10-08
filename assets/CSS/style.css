@@ -104,7 +104,11 @@ aside {
     float: left; /*The float will set the aside to the left side of the screen*/
     width: 15%;
     height: 300px; /* Set height to 600px */
-    padding: 20px; background-color: #8AD1D3; border-radius: 8px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px; 
+    background-color: #8AD1D3; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    flex: 1;
 }
 
 aside a, a:visited{
