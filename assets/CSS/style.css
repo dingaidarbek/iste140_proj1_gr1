@@ -368,6 +368,7 @@ body{
     text-decoration: underline;
 }
 
+/* Style for footer of the page */
 #footer {
     text-align: center;
     padding: 15px 0;
@@ -377,6 +378,7 @@ body{
     margin-top: 50px;
 }
 
+/* Makes text bold */
 span{
     font-weight: bold;
 }
