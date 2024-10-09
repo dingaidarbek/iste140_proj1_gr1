@@ -1,3 +1,8 @@
+/*
+    CSS SHEET FOR ISTE 140 PROJECT 1
+    JAMILE LEEN DINGMUKHAMMED 
+
+*/
 body{
     background-color:rgb(169, 223, 223);
     font-family: 'Times New Roman', Times, serif;
@@ -174,9 +179,9 @@ aside h2{
     height: 650px ;
 }
 
-/*The following 'inner-box' class will style the text
+/*The following 'section' class will style the text
 in 'ABOUT US' navigator*/
-.inner-box {
+.section {
     background-color: rgba(211, 211, 211, 0.766);
     padding: 20px;
     margin: 10px;
@@ -189,25 +194,25 @@ in 'ABOUT US' navigator*/
     line-height: 1.6;
 }
 
-/*The following 'inner-box' class will style the paragraph
+/*The following 'section' class will style the paragraph
 in 'ABOUT US' navigator*/
-.inner-box p {
+.section p {
     font-size: 18px; /* font size for paragraph text */
     font-weight: 400; /* Regular weight for easy reading */
     margin: 0 0 15px; /* adding margin between paragraphs */
     color:black;
 }
 
-/*The following 'inner-box' class will style the link we used
+/*The following 'section' class will style the link we used
 in 'ABOUT US' navigator*/
-.inner-box a {
+.section a {
     color: #007BFF;
     /*the below command will remove the underline from the link*/
     text-decoration: none;
     font-weight: 600; /*making the link bolder*/
 }
 
-.inner-box a:hover {
+.section a:hover {
     text-decoration: underline;
 }
 
@@ -380,6 +385,8 @@ body{
     color: darkblue;
     font-size: 1rem;
     margin-top: 50px;
+    width: 100vw;
+    bottom: 0;
 }
 
 /* Makes text bold */
