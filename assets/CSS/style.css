@@ -216,6 +216,7 @@ in 'ABOUT US' navigator*/
     text-decoration: underline;
 }
 
+/*The following 'place' class will style the content pages*/
 .place{
     align-items: center;
     border: 5px solid cadetblue;
@@ -233,7 +234,7 @@ body{
     font-size: 20px;
 }
 
-
+/*used in content pages*/
 .place_description{
     width: 70%;
 }
@@ -244,6 +245,7 @@ body{
     clear: both;
 }
 
+/*used in content pages to style images and ensure position*/
 .place .img{
     width:30%;
     margin-left: 10px;
